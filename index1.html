@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>C418</title>
+  <link rel="shortcut icon" href="./src/img/Icon.png">
+  <link rel="stylesheet" href="./src/css/index1.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
+  <script src="https://kit.fontawesome.com/feab56cb1c.js" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo"><img src="./src/img/logo2.png"></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#2">About us</a></li>
+        <li><a href="#wrapper">Abiity</a></li>
+        <li><a href="#services-home">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-btn" onclick="this.classList.toggle('active')">
+        <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 200 200">
+          <g stroke-width="6.5" stroke-linecap="round">
+            <path d="M72 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff" />
+            <path
+              d="M100.75 103.714l72.482-.143c.043 39.398-32.284 71.434-72.16 71.434-39.878 0-72.204-32.036-72.204-71.554"
+              fill="none" stroke="#fff" />
+            <path d="M72 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff" />
+            <path
+              d="M100.75 103.714l-71.908-.143c.026-39.638 32.352-71.674 72.23-71.674 39.876 0 72.203 32.036 72.203 71.554"
+              fill="none" stroke="#fff" />
+            <path d="M100.75 82.286h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff" />
+            <path d="M100.75 125.143h28.75" fill="#009100" fill-rule="evenodd" stroke="#fff" />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </nav>
+
+  <!---home section start -->
+
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">We're</div><br>
+        <div class="text-2">C418</div>
+        <div class="text-3">We're <span>Creator</span>&<span>Entertainer</span></div>
+        <a href="#2">Let's Go</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="max-width" id="2">
+      <div class="about-content">
+        <div class="column left">
+          <img src="./src/img/AboutIMG.jpg">
+        </div>
+        <div class="column right">
+          <div class="text" id="text">
+            <h1><span>About Us.</span></h1>
+            <h2>C418 A room that combines all <span>Entertainment</span> here.</h2>
+          </div>
+          <p>Fun and mischievous with the Creator and Entertainer who are reckless, divine, retarded and versatile.
+            packed with quality with
+            Tri as the ringleader
+            Arm is the maker
+            Name is the weight and hair Belle, a handsome young man. Unified under Room C418, Chamber of Chaos.</p>
+        </div>
+      </div>
+  </section>
+
+  <section id="slide-container">
+    <div class="skill-title" id="skill-title">
+      <h2 class="title">
+        <span style="--i:1;">A</span>
+        <span style="--i:2;">b</span>
+        <span style="--i:3;">i</span>
+        <span style="--i:4;">l</span>
+        <span style="--i:5;">i</span>
+        <span style="--i:6;">t</span>
+        <span style="--i:7;" id="wrapper">y</span>
+      </h2>
+      <div class="slide-container">
+        <div class="wrapper">
+          <div class="clash-card barbarian">
+            <div class="clash-card__image clash-card__image--barbarian">
+              <img src="./src/img/ธนทัตremovebg.png" alt="barbarian" />
+            </div>
+            <div class="clash-card__level clash-card__level--barbarian">Creator</div>
+            <div class="clash-card__unit-name">Tanatat</div>
+            <div class="clash-card__unit-description column">
+              <div class="bars">
+                <div class="info">
+                  <span>Leadership</span>
+                  <span>75%</span>
+                </div>
+                <div class="line leadership"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Game</span>
+                  <span>90%</span>
+                </div>
+                <div class="line game"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Sport</span>
+                  <span>65%</span>
+                </div>
+                <div class="line sport"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Party</span>
+                  <span>65%</span>
+                </div>
+                <div class="line party"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Language</span>
+                  <span>50%</span>
+                </div>
+                <div class="line language" id="end"></div>
+              </div>
+            </div>
+          </div> <!-- end clash-card barbarian-->
+        </div> <!-- end wrapper -->
+
+        <div class="wrapper">
+          <div class="clash-card archer">
+            <div class="clash-card__image clash-card__image--archer">
+              <img src="./src/img/อัมรินทร์removebg.png" alt="archer" />
+            </div>
+            <div class="clash-card__level clash-card__level--archer">Entertainer</div>
+            <div class="clash-card__unit-name">Ammarin</div>
+            <div class="clash-card__unit-description column">
+              <div class="bars">
+                <div class="info">
+                  <span>Leadership</span>
+                  <span>95%</span>
+                </div>
+                <div class="line leadership"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Game</span>
+                  <span>50%</span>
+                </div>
+                <div class="line game"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Sport</span>
+                  <span>100%</span>
+                </div>
+                <div class="line sport"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Party</span>
+                  <span>10%</span>
+                </div>
+                <div class="line party"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Language</span>
+                  <span>60%</span>
+                </div>
+                <div class="line language"></div>
+              </div>
+            </div>
+
+            <div class="clash-card__unit-stats clash-card__unit-stats--archer clearfix">
+            </div>
+
+          </div> <!-- end clash-card archer-->
+        </div> <!-- end wrapper -->
+
+        <div class="wrapper">
+          <div class="clash-card giant">
+            <div class="clash-card__image clash-card__image--giant">
+              <img src="./src/img/มงคลชัยremovebg.png" alt="giant" />
+            </div>
+            <div class="clash-card__level clash-card__level--giant">Creator</div>
+            <div class="clash-card__unit-name">Mongkhonchai</div>
+            <div class="clash-card__unit-description column">
+              <div class="bars">
+                <div class="info">
+                  <span>Leadership</span>
+                  <span>65%</span>
+                </div>
+                <div class="line leadership"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Game</span>
+                  <span>65%</span>
+                </div>
+                <div class="line game"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Sport</span>
+                  <span>25%</span>
+                </div>
+                <div class="line sport"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Party</span>
+                  <span>80%</span>
+                </div>
+                <div class="line party"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Language</span>
+                  <span>25%</span>
+                </div>
+                <div class="line language"></div>
+              </div>
+            </div>
+
+            <div class="clash-card__unit-stats clash-card__unit-stats--giant clearfix">
+            </div>
+
+          </div> <!-- end clash-card giant-->
+        </div> <!-- end wrapper -->
+
+        <div class="wrapper">
+          <div class="clash-card goblin">
+            <div class="clash-card__image clash-card__image--goblin">
+              <img src="./src/img/ธันวาremovebg2.png" alt="goblin" />
+            </div>
+            <div class="clash-card__level clash-card__level--goblin">Creator , Entertainer</div>
+            <div class="clash-card__unit-name">Thanwa</div>
+            <div class="clash-card__unit-description column">
+              <div class="bars">
+                <div class="info">
+                  <span>Leadership</span>
+                  <span>80%</span>
+                </div>
+                <div class="line leadership"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Game</span>
+                  <span>95%</span>
+                </div>
+                <div class="line game"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Sport</span>
+                  <span>35%</span>
+                </div>
+                <div class="line sport"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Party</span>
+                  <span>99%</span>
+                </div>
+                <div class="line party"></div>
+              </div>
+              <div class="bars">
+                <div class="info">
+                  <span>Language</span>
+                  <span>30%</span>
+                </div>
+                <div class="line language"></div>
+              </div>
+            </div>
+
+          </div> <!-- end clash-card goblin-->
+        </div> <!-- end wrapper -->
+      </div> <!-- end container -->
+    </div>
+  </section>
+
+  <section class="services-home">
+    <h1 class="title" id="services-home"><span>Ser</span><span>vices</span></h1>
+    <div class="services">
+      <div class="services-1">
+        <div class="shapes">
+          <div class="shape-1 right"></div>
+          <div class="shape-2 right"></div>
+          <div class="shape-3 right"></div>
+        </div>
+        <div class="img">
+          <img src="./src/img/web design2.png" alt="">
+        </div>
+        <div class="description">
+          <h2>Web design</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis aliquid natus voluptas beatae in,
+            impedit eveniet quam, quidem sapiente magnam voluptates culpa blanditiis ea pariatur, maiores tenetur
+            quaerat. Excepturi, unde.</p>
+        </div>
+        <div class="shapes">
+          <div class="shape-4"></div>
+          <div class="shape-5"></div>
+          <div class="shape-6"></div>
+        </div>
+      </div>
+
+      <div class="services-1">
+        <div class="shapes">
+          <div class="shape-1 right"></div>
+          <div class="shape-2 right"></div>
+          <div class="shape-3 right"></div>
+        </div>
+        <div class="img">
+          <img src="./src/img/web develop2.png" alt="">
+        </div>
+        <div class="description">
+          <h2>Web developer</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis aliquid natus voluptas beatae in,
+            impedit eveniet quam, quidem sapiente magnam voluptates culpa blanditiis ea pariatur, maiores tenetur
+            quaerat. Excepturi, unde.</p>
+        </div>
+        <div class="shapes">
+          <div class="shape-4"></div>
+          <div class="shape-5"></div>
+          <div class="shape-6"></div>
+        </div>
+      </div>
+
+      <div class="services-1">
+        <div class="shapes">
+          <div class="shape-1 right"></div>
+          <div class="shape-2 right"></div>
+          <div class="shape-3 right"></div>
+        </div>
+        <div class="img">
+          <img src="./src/img/entertainment.png" alt="">
+        </div>
+        <div class="description">
+          <h2>Entertainment</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis aliquid natus voluptas beatae in,
+            impedit eveniet quam, quidem sapiente magnam voluptates culpa blanditiis ea pariatur, maiores tenetur
+            quaerat. Excepturi, unde.</p>
+        </div>
+        <div class="shapes">
+          <div class="shape-4"></div>
+          <div class="shape-5"></div>
+          <div class="shape-6"></div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="contact">
+        <h2 id="3">Contact Us</h2>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span class="text">First Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span class="text">Last Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span class="text">Email</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="" required="required">
+              <span class="text">Mobile</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row100">
+          <div class="col">
+            <div class="inputBox textarea">
+              <textarea required="required"></textarea>
+              <span class="text">Type Your Message Here...</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row100">
+          <div class="col">
+            <input type="submit" value="Send">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer-basic">
+        <footer>
+          <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i
+                class="fa-brands fa-snapchat"></i></a><a href="#"><i class="fa-brands fa-twitter"></i></a><a href="#"><i
+                class="fa-brands fa-facebook-f"></i></a></div>
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="" #home">Home</a></li>
+            <li class="list-inline-item"><a href="#2">About us</a></li>
+            <li class="list-inline-item"><a href="#wrapper">Abiity</a></li>
+            <li class="list-inline-item"><a href="#services-home">Services</a></li>
+            <li class="list-inline-item"><a href="#contact">Contact</a></li>
+          </ul>
+          <p class="copyright">copyright by Tanatat © 2022</p>
+        </footer>
+    </section>
+  </section>
+
+
+
+
+
+
+
+  <script src="script.js"></script>
+  <script src="./smooth-scroll.js"></script>
+  <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+  <script>
+    $(function () {
+
+      var scroll = $(document).scrollTop();
+      var navHeight = $('.navbar').outerHeight();
+
+      $(window).scroll(function () {
+
+        var scrolled = $(document).scrollTop();
+
+        if (scrolled > navHeight) {
+          $('.navbar').addClass('animate');
+        } else {
+          $('.navbar').removeClass('animate');
+        }
+        if (scrolled > scroll) {
+          $('.navbar').removeClass('sticky');
+        } else {
+          $('.navbar').addClass('sticky');
+        }
+
+        scroll = $(document).scrollTop();
+      })
+    })
+  </script>
+</body>
+
+</html>
